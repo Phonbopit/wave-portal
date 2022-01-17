@@ -2,6 +2,10 @@
 
 Learning Solidity with [Build a Web3 App with Solidity + Ethereum Smart Contract](https://buildspace.so/solidity)
 
+![Screenshot](./img/ss1.png)
+
+![Screenshot2](./img/ss2.png)
+
 forked from `waveportal-starter` and add some feature includes:
 
 * Vite.js
