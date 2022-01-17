@@ -9,7 +9,7 @@ const Header = () => {
           href="https://rinkeby.etherscan.io/address/0xb77d9699267298eaa57d6fa96c65fe9b7c45a6c8"
           className="px-2 underline text-indigo-500 decoration-indigo-500 decoration-wavy decoration-2"
         >
-          Contract Adress
+          Contract Address
         </a>
       </div>
     </div>

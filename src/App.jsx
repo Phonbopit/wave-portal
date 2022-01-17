@@ -311,6 +311,13 @@ export default function App() {
             Build a Web3 App with Solidity + Ethereum Smart Contracts by{' '}
             <a className="text-indigo-500" href="https://buildspace.so/">
               Buildspace
+            </a>{' '}
+            {` | `}{' '}
+            <a
+              className="text-teal-500"
+              href="https://github.com/Phonbopit/wave-portal"
+            >
+              Source Code
             </a>
           </p>
         </footer>
