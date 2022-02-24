@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex items-center text-red-500 hover:text-red-600 ">
         ⚠️ This is a Harmony One Testnet{' '}
         <a
-          href="https://explorer.pops.one/address/0xb77d9699267298eaa57d6fa96c65fe9b7c45a6c8"
+          href="https://explorer.pops.one/address/0x6914794128792d7de3a902E6ce1cD4f6c4ca1dE9"
           className="px-2 underline text-indigo-500 decoration-indigo-500 decoration-wavy decoration-2"
         >
           Contract Address
