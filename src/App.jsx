@@ -11,7 +11,7 @@ import SkeletonContent from './components/SkeletonContent';
 import abi from './utils/WavePortal.json';
 
 const contractABI = abi.abi;
-const contractAddress = '0xb77d9699267298eaa57D6Fa96C65FE9b7C45A6c8'; // contract address on rinkeby
+const contractAddress = '0x6914794128792d7de3a902E6ce1cD4f6c4ca1dE9'; // contract address on rinkeby
 
 const FORMAT_DATE = 'dd MMM yyyy HH:mm:ss';
 

@@ -17,6 +17,7 @@ task('accounts', 'Prints the list of accounts', async (taskArgs, hre) => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
+const ACCOUNT_PRIVATE_KEY = process.env.ETHEREUM_WALLET_PRIVATE_KEY;
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -25,7 +26,11 @@ module.exports = {
   networks: {
     rinkeby: {
       url: process.env.ALCHEMY_API_URL,
-      accounts: [process.env.ETHEREUM_WALLET_PRIVATE_KEY]
+      accounts: [ACCOUNT_PRIVATE_KEY]
+    },
+    harmony_testnet: {
+      url: 'https://api.s0.b.hmny.io',
+      accounts: [ACCOUNT_PRIVATE_KEY]
     }
   }
 };
